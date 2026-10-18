@@ -37,18 +37,18 @@ The dataset contains vehicle specifications and pricing information used to trai
 
 Categorical variables, including car name, company, engine type, and fuel type, are one-hot encoded before being passed to the model.
 
-## 🤖 Machine Learning Approach
+  Machine Learning Approach
 
-**Algorithm:** Random Forest Regressor
+Algorithm: Random Forest Regressor
 
 The model uses an ensemble of decision trees to learn relationships between vehicle characteristics and prices.
 
-### Model Configuration
+ Model Configuration
 
-- Number of trees:** 100
-- Minimum samples per leaf:** 2
-- Target transformation:** `log1p(price)`
-- Prediction conversion:** `expm1(prediction)`
+- Number of trees: 100
+- Minimum samples per leaf: 2
+- Target transformation: `log1p(price)`
+- Prediction conversion: `expm1(prediction)`
 
 The target price is log-transformed during training to help handle its wide range of values. Predictions are converted back to the original price scale before being displayed.
 
