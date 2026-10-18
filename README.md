@@ -5,8 +5,7 @@ A machine learning web application that estimates a car's market price based on 
  Live Demo
 
 [Try the Car Price Predictor](https://carprice-six.vercel.app/)
-Home.jpg
-info.jpg
+
 
 About the Project
 
