@@ -5,7 +5,10 @@ A machine learning web application that estimates a car's market price based on 
  Live Demo
 
 [Try the Car Price Predictor](https://carprice-six.vercel.app/)
- About the Project
+Home.jpg
+info.jpg
+
+About the Project
 
 The goal of this project is to estimate vehicle prices from their technical specifications and other characteristics. The model is trained on a cleaned dataset of approximately 1,200 cars and deployed through an interactive web application.
 
